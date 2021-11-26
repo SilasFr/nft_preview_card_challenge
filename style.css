@@ -119,6 +119,14 @@ footer {
   width: 100%;
   position: fixed;
   bottom: 0;
+
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-align: center;
 }
 
 h2:hover,
@@ -139,7 +147,6 @@ h2:hover,
 
   border-radius: 8px;
   background-position: center;
-  /* background-image: url(./images/icon-view.svg); */
   background-color: hsla(178, 100%, 50%, 0.5);
   background-size: 60px;
   background-repeat: no-repeat;
@@ -147,9 +154,6 @@ h2:hover,
 }
 
 @media (max-width: 376px) {
-  body {
-    height: calc();
-  }
   .card {
     width: 80%;
     padding: 10%;
