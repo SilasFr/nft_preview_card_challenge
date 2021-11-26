@@ -7,6 +7,10 @@ body {
   font-family: "Outfit", sans-serif;
 }
 
+h2 {
+  transition: all 1s ease-in-out;
+}
+
 .card {
   width: 400px;
   margin: 0 auto;
@@ -42,6 +46,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: all 1s ease-in-out;
+  opacity: 0;
 }
 
 .card-paragraph {
@@ -106,6 +112,7 @@ footer {
 .highlight-name {
   font-weight: 600;
   color: #fff;
+  transition: all 1s ease-in-out;
 }
 
 .attribution {
@@ -128,13 +135,15 @@ h2:hover,
 }
 
 .svg-background-color:hover {
+  opacity: 1;
+
   border-radius: 8px;
-  transition: background-color 1s ease-out;
-  background-color: hsla(178, 100%, 50%, 0.5);
-  background-image: url(./images/icon-view.svg);
-  background-size: 60px;
   background-position: center;
+  /* background-image: url(./images/icon-view.svg); */
+  background-color: hsla(178, 100%, 50%, 0.5);
+  background-size: 60px;
   background-repeat: no-repeat;
+  transition: all 1s ease-out;
 }
 
 @media (max-width: 376px) {
